@@ -57,3 +57,8 @@
           "build": "vite build"
       }
   }
+"homepage": "https://Ayush-Gupta1243.github.io/loan-app",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
